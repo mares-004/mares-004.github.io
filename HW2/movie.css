@@ -1,0 +1,149 @@
+body {
+  background-image: url("http://mumstudents.org/cs472/2018-12-BL/Homework/2/resources/background.png");
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 8pt;
+  margin: 0px;
+  padding: 0px;
+}
+
+#header {
+  background-image: url("http://mumstudents.org/cs472/2018-12-BL/Homework/2/resources/bannerbg.png");
+  background-repeat: repeat-x;
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;;
+  font-size: 24pt;
+  font-family: Tahoma, Verdana, sans-serif;
+  text-shadow: 3px 3px #999999;
+}
+
+#content {
+  width: 800px;
+  margin: auto;
+  border-style: solid;
+  border-width: 4px;
+  border-color: gray;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#info {
+  float: left;
+  height: auto;
+}
+
+#right {
+  width: 250px;
+  float: right;
+  background-color: #A2B964;
+}
+
+#left {
+  width: 550px;
+  float: left;
+}
+
+.rotten {
+  background-image: url("http://mumstudents.org/cs472/2018-12-BL/Homework/2/resources/rbg.png");
+  background-repeat: repeat-x;
+}
+
+.rotten img {
+  vertical-align: bottom;
+  height: 83px;
+}
+
+.rotten span {
+  font-size: 48pt;
+  color: red;
+  font-weight: bold;
+}
+
+.review-column {
+  width: 47%;
+  float: left;
+  margin-left: 2%;
+}
+
+.review {
+  margin-bottom: 20pt;
+}
+
+.description {
+  font-size: 8pt;
+  font-weight: bold;
+  background-color: #E8DC9B;
+  border-color: gray;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 8px;
+  overflow: auto;
+}
+
+.description img {
+  margin-right: 5px;
+  float: left;
+}
+
+.personal-information {
+  font-style: italic;
+}
+
+.personal-information img {
+  margin-right: 5px;
+  float: left;
+}
+
+#general-overview {
+  margin: 10pt;
+  font-size: 8pt;
+  font-family: arial, sans-serif;
+}
+
+#general-overview dl dt {
+  font-weight: bold;
+  margin-top: 10pt;
+}
+
+#general-overview dl dd ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#verifier {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+#verifier a {
+  opacity: 0.5;
+}
+
+#verifier a:hover {
+  opacity: 1.0;
+}
+
+#pagination {
+  clear: both;
+  background-color: #A2B964;
+  text-align: center;
+  padding: 5px;
+}
+
+#pagination p {
+  margin: 0;
+}
+
+#right_overview {
+  width: 250px;
+  float: right;
+  background-color: #A2B964;
+}
