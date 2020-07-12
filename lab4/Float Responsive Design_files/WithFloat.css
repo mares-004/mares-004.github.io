@@ -1,0 +1,43 @@
+body div ul{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.header {
+    background-color: #ADD8E6;
+    height: 50px;
+    text-align: center;
+    alignment: center;
+}
+
+.menu {
+    background-color: #2f4f4f;
+    /*display: inline;*/
+    height: 50px;
+    text-align: left;
+    alignment: center;
+        }
+ul {
+    background-color: #2f4f4f;
+}
+li{    color: white;
+    height: 50px;
+    display: inline;
+    border: 1px solid black;
+}
+
+.allColumns
+{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+
+.column1 {background-color: #aaaaaa}
+.column2 {background-color: #bbbbbb}
+.column3 {background-color: #cccccc}
+
+.fotter {    background-color: #2f4f4f;
+    height: 50px;
+color: white;
+text-align: center}
